@@ -1,6 +1,9 @@
+<<<<<<< HEAD
 # Local snippet source files
 *.json
 
+=======
+>>>>>>> b4c948b8466bf5880149d9e1193c45b32afca07b
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
