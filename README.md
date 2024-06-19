@@ -3,6 +3,8 @@ Snippyt CLI is a command-line application written in Python designed to parse
 complex snippet objects from various standards and provide them to the system
 clipboard in the absence of a language server.
 
+Currently, VSCode Snippet syntax is recognized.
+
 # System Requirements
 Snippyt CLI is designed for use on UNIX- and POSIX-like systems. It interfaces
 with the system clipboard by identifying the most suitable installed
@@ -10,6 +12,7 @@ clipboarding utility available in its execution environment. It is currently
 compatible with the following utilities, which it checks for in list order:
 - `xclip`
 - `xsel`
+
 Snippyt CLI requires at least one of the above to be locally installed in order
 to provide Snippet data to the system clipboard.
 
